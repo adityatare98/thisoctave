@@ -20,6 +20,11 @@ p{
 padding-top: 80px;
 padding-bottom: 80px;
 }
+
+.bg-sec{
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(16,105,94,1) 35%, rgba(0,212,255,1) 100%);
+}
 body{
   background: #000;
 }
@@ -138,9 +143,31 @@ header{
    margin: 10px;
 
  }
- .services-class .col h2{
-   text-align: right;
+ .card.card-header{
+   background: #F8F9Fa !important;
  }
- .services-class .img{
-   align-items: left;
+ .card-header{
+   border:none !important;
+ }
+ .service-class .card-header{
+   font-size:50px;
+
+ }
+ .service-class .container h2{
+   align-items: center;
+ }
+ .trial h3{
+   color:#A9A9A9;
+
+ }
+ .trial .r-btn{
+   color:#A9A9A9;
+ }
+ .r-btn{
+   padding: 5px 20px;
+   background-color:#A9A9A9 !important;
+   color:#fff !important;
+ }
+ .exp-class{
+   padding-bottom: 100px;
  }
